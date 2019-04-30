@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FixedAnimatedRadioButton">
+        <attr name="animation_open" format="boolean"/>
+        <attr name="max_scale" format="float"/>
+        <attr name="min_scale" format="float"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main"
+        tools:context="com.qingyc.fixedanimatedradiobutton.MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    >
+
+        <com.qingyc.fixedanimatedradiobutton.FixedAnimatedRadioButton
+                android:foreground="@null"
+                android:id="@+id/rb_capricorn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                app:max_scale="1.1"
+                android:drawableTop="@drawable/main_rb_01"
+                android:gravity="center"
+                android:text="one"
+                android:textColor="@color/radio_btn_text_color"
+                android:textSize="12sp"/>
+
+
+        <com.qingyc.fixedanimatedradiobutton.FixedAnimatedRadioButton
+                android:id="@+id/rb_compatibility"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+                app:max_scale="1.1"
+                android:drawableTop="@drawable/main_rb_02"
+                android:gravity="center"
+                android:text="Two"
+                android:textColor="@color/radio_btn_text_color"
+                android:textSize="12sp"/>
+
+
+        <com.qingyc.fixedanimatedradiobutton.FixedAnimatedRadioButton
+                android:id="@+id/rb_personality"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+                app:max_scale="1.1"
+                android:drawableTop="@drawable/main_rb_03"
+                android:gravity="center"
+                android:text="Three"
+                android:textColor="@color/radio_btn_text_color"
+                android:textSize="12sp"/>
+
+        <com.qingyc.fixedanimatedradiobutton.FixedAnimatedRadioButton
+                android:id="@+id/rb_discover"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:max_scale="1.1"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+                android:drawableTop="@drawable/main_rb_04"
+                android:gravity="center"
+                android:text="Four"
+                android:textColor="@color/radio_btn_text_color"
+                android:textSize="12sp"/>
+
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
