@@ -89,7 +89,7 @@
 
 可以看出在低版本的模拟器中 radioButton左边显示了一个默认button图标,xml中 ***android:button="@null"*** 无效
 
-![android api 19](art/device-2019-04-29-094253.png )
+![android api 19](art/device-2019-04-29-094253.png ){:height="100" width="100"}
 
 而在高版本的模拟器和手机中 显示正常
 
