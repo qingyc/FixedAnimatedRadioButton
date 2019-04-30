@@ -6,6 +6,25 @@
 ![ani](art/fixedAnimatedRadioButton.gif)
 
 
+### How do I use it?
+Step 1.Add it in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+Step 2. Add the dependency
+```
+dependencies {
+         implementation 'com.github.qingyc:FixedAnimatedRadioButton:0.1'
+}
+```
+
+
 ## 一.处理低版本RadioButton问题
 
 #### RadioButton在布局中的使用
