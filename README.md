@@ -3,7 +3,7 @@
 
 效果如图
 
-![ani](art/fixedAnimatedRadioButton.gif)
+![ani](https://github.com/qingyc/FixedAnimatedRadioButton/raw/master/art/fixedAnimatedRadioButton.gif)
 
 
 ### How do I use it?
@@ -45,7 +45,7 @@ dependencies {
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/main_viewpager">
 
-        <com.qingyc.basekit.widget.FixedAnimatedRadioButton
+        <com.qingyc.fixedanimatedradiobutton.FixedAnimatedRadioButton
             android:id="@+id/rb_capricorn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@ dependencies {
             android:textSize="12sp"/>
 
 
-        <com.qingyc.basekit.widget.FixedAnimatedRadioButton
+        <com.qingyc.fixedanimatedradiobutton.FixedAnimatedRadioButton
             android:id="@+id/rb_compatibility"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -73,7 +73,7 @@ dependencies {
             android:textSize="12sp"/>
 
 
-        <com.qingyc.basekit.widget.FixedAnimatedRadioButton
+        <com.qingyc.fixedanimatedradiobutton.FixedAnimatedRadioButton
             android:id="@+id/rb_personality"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -86,7 +86,7 @@ dependencies {
             android:textColor="@color/radio_btn_text_color"
             android:textSize="12sp"/>
 
-        <com.qingyc.basekit.widget.FixedAnimatedRadioButton
+        <com.qingyc.fixedanimatedradiobutton.FixedAnimatedRadioButton
             android:id="@+id/rb_discover"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -108,11 +108,11 @@ dependencies {
 
 可以看出在低版本的模拟器中 radioButton左边显示了一个默认button图标,xml中 ***android:button="@null"*** 无效
 
-![android api 19](art/device-2019-04-29-094253.png ){:height="100" width="100"}
+![android api 19](https://github.com/qingyc/FixedAnimatedRadioButton/raw/master/art/device-2019-04-29-094253.png)
 
 而在高版本的模拟器和手机中 显示正常
 
-![android api 28](art/device-2019-04-29-093920.png )
+![android api 28](https://github.com/qingyc/FixedAnimatedRadioButton/raw/master/art/device-2019-04-29-093920.png)
 
 
 RadioButton的button图标的设置是在CompoundButton类中实现的 
@@ -345,3 +345,4 @@ RadioButton选中动画实现
 ```
 
 
+[github源码](https://github.com/qingyc/FixedAnimatedRadioButton)
